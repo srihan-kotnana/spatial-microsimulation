@@ -1,0 +1,4 @@
+# spatial-microsimulation
+Using Generative Adversarial Networks to Assist Synthetic Population Creation for Simulations
+
+Synthetic populations are heavily used in agent-based simulations and microsimulations to create realistic representations of real-world populations. Many existing techniques rely on duplicating or selecting a sample of individual records captured via surveys to generate the entire synthetic population. The challenge here is the potential bias present in the sample of individual records. This paper posits that such individual records can be improved or replaced by training a generative adversarial network (GAN). We present a case study of generating approximately 1.1 million population using iterative proportional fitting (IPF). We illustrate that IPF makes a better fit using GAN-based individual records rather than original census-based individual records. Our results show a promising use of GANs for synthetic population generation.
